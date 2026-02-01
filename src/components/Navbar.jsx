@@ -5,7 +5,10 @@ const Navbar = () => {
   return (
     <div className="navbar">
       <div className="logo">
-        <img src="/images/logo.png" alt="Ben 10 Logo" />
+        <img
+          src={`${import.meta.env.BASE_URL}images/logo.png`}
+          alt="Ben 10 Logo"
+        />
       </div>
 
       <ul className="nav-links">
